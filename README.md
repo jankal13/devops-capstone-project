@@ -1,5 +1,8 @@
 # DevOps Capstone Template
 
+![Build Status](https://github.com/k13solutions/devops-capstone-project/actions/workflows/ci-build.yaml/badge.svg)
+
+
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python 3.9](https://img.shields.io/badge/Python-3.9-green.svg)](https://shields.io/)
 
@@ -65,10 +68,10 @@ The code for the microservice is contained in the `service` package. All of the 
 
 ```text
 ├── service         <- microservice package
-│   ├── common/     <- common log and error handlers
-│   ├── config.py   <- Flask configuration object
-│   ├── models.py   <- code for the persistent model
-│   └── routes.py   <- code for the REST API routes
+│   ├── common/     <- common log and error handlers
+│   ├── config.py   <- Flask configuration object
+│   ├── models.py   <- code for the persistent model
+│   └── routes.py   <- code for the REST API routes
 ├── setup.cfg       <- tools setup config
 └── tests                       <- folder for all of the tests
     ├── factories.py            <- test factories
