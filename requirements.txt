@@ -1,9 +1,9 @@
-# Pin Werkzeug because it keeps breaking Flask!
-Werkzeug==2.1.2
+# Pin dependancies that might cause breakage
+Werkzeug==2.2.2
 
-# Runtime dependencies
-Flask==2.1.2
-Flask-SQLAlchemy==2.5.1
+# Build dependencies
+Flask==2.2.2
+Flask-SQLAlchemy==3.0.2
 Flask-Talisman==1.0.0
 Flask-Cors==3.0.10
 psycopg2-binary==2.9.3
@@ -25,7 +25,7 @@ factory-boy==2.12.0
 
 # Code Coverage
 coverage==6.3.2
-codecov==2.1.12
+codecov==2.1.13
 
 # Utilities
 httpie==3.2.1
