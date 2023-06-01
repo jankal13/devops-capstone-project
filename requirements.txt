@@ -1,7 +1,11 @@
 # Pin dependancies that might cause breakage
 Werkzeug==2.2.2
 
+<<<<<<< HEAD
 # Runtime dependencies
+=======
+# Build dependencies
+>>>>>>> b7305e96c9a6b97a2e78d06b0c3d5ae4ee3dfcf1
 Flask==2.2.2
 Flask-SQLAlchemy==3.0.2
 Flask-Talisman==1.0.0
@@ -24,7 +28,12 @@ pinocchio==0.4.3
 factory-boy==3.2.1
 
 # Code Coverage
+<<<<<<< HEAD
 coverage==7.1.0
+=======
+coverage==6.3.2
+codecov==2.1.13
+>>>>>>> b7305e96c9a6b97a2e78d06b0c3d5ae4ee3dfcf1
 
 # Utilities
 httpie==3.2.1
